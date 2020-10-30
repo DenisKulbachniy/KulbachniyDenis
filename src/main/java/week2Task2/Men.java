@@ -1,51 +1,38 @@
 package week2Task2;
 
-public class Men {
-    private double height;
-    private int weight;
-    private String hairColor;
-    private int age;
-
-    public Men(double height, int weight, String hairColor, int age) {
-        this.height = height;
-        this.weight = weight;
-        this.hairColor = hairColor;
-        this.age = age;
+public class Men extends Human {
+    private String beardColor;
+    private int bicepsVolume;
+    @Override
+    void behaviourAndEssence(){
+        System.out.println("Behaviour is: " + "Bad man" + "\n" + "Name is: " + getName() + "\n" + "Age is: " + getAge() + "\n" +
+               "Height is: " + getHeight() + "\n" + "Weight is: " +  getWeight() + "\n" + "Hair color is: " + getHairColor() + "\n" +
+                "Beard color is " + getBeardColor() + "\n" + "Biceps volume is: " + getBicepsVolume());
     }
 
-    public double getHeight() {
-        return height;
+    public Men(String name, int age, double height, int weight, String hairColor, String beardColor, int bicepsVolume) {
+        super(name, age, height, weight, hairColor);
+        this.beardColor = beardColor;
+        this.bicepsVolume = bicepsVolume;
     }
 
-    public void setHeight(double height) {
-        this.height = height;
+    public String getBeardColor() {
+        return beardColor;
     }
 
-    public int getWeight() {
-        return weight;
+    public void setBeardColor(String beardColor) {
+        this.beardColor = beardColor;
     }
 
-    public void setWeight(int weight) {
-        this.weight = weight;
+    public int getBicepsVolume() {
+        return bicepsVolume;
     }
 
-    public String getHairColor() {
-        return hairColor;
+    public void setBicepsVolume(int bicepsVolume) {
+        this.bicepsVolume = bicepsVolume;
     }
-
-    public void setHairColor(String hairColor) {
-        this.hairColor = hairColor;
-    }
-
-    public int getAge() {
-        return age;
-    }
-
-    public void setAge(int age) {
-        this.age = age;
-    }
-    public void showMen(){
-        System.out.println(" Height is: " + getHeight() + " weight is: " + getWeight() + " hair color is : " + getHairColor() + " age is: " + getAge());
+    void showMen(){
+        System.out.println();
     }
 }
 

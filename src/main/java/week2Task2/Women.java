@@ -1,51 +1,38 @@
 package week2Task2;
 
-public class Women {
-    private double height;
-    private int weight;
-    private String hairColor;
-    private int age;
+public class Women extends Human {
+    private int amountOfChildren;
+    private String nailColor;
 
-    public Women(double height, int weight, String hairColor, int age) {
-        this.height = height;
-        this.weight = weight;
-        this.hairColor = hairColor;
-        this.age = age;
+    @Override
+    void behaviourAndEssence() {
+        System.out.println("Behaviour is: " + "Good girl" + "\n" + "Name is: " + getName() + "\n" + "Age is: " + getAge() + "\n" +
+                "Height is: " + getHeight() + "\n" + "Weight is: " +  getWeight() + "\n" + "Hair color is: " + getHairColor() + "\n" +
+                "Amount of children: " + getAmountOfChildren() + "\n" + "Nail color is: " + getNailColor());
     }
 
-    public void setHeight(double height) {
-        this.height = height;
+    public Women(String name, int age, double height, int weight, String hairColor, int amountOfChildren, String nailColor) {
+        super(name, age, height, weight, hairColor);
+        this.amountOfChildren = amountOfChildren;
+        this.nailColor = nailColor;
     }
 
-    public void setWeight(int weight) {
-        this.weight = weight;
+    public int getAmountOfChildren() {
+        return amountOfChildren;
     }
 
-    public void setHairColor(String hairColor) {
-        this.hairColor = hairColor;
+    public void setAmountOfChildren(int amountOfChildren) {
+        this.amountOfChildren = amountOfChildren;
     }
 
-    public void setAge(int age) {
-        this.age = age;
+    public String getNailColor() {
+        return nailColor;
     }
 
-    public double getHeight() {
-        return height;
-    }
-
-    public int getWeight() {
-        return weight;
-    }
-
-    public String getHairColor() {
-        return hairColor;
-    }
-
-    public int getAge() {
-        return age;
-    }
-
-    public void showWomen() {
-        System.out.println(" Height is: " + getHeight() + " weight is: " + getWeight() + " hair color is : " + getHairColor() + " age is: " + getAge());
+    public void setNailColor(String nailColor) {
+        this.nailColor = nailColor;
     }
 }
+
+
+

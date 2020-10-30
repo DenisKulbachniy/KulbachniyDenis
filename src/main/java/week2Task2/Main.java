@@ -2,11 +2,9 @@ package week2Task2;
 
 public class Main {
     public static void main(String[] args) {
-        Women women  = new Women(1.65,50, "black", 22);
-        Men men = new Men(1.81, 80, "black", 24);
-        women.showWomen();
-        men.showMen();
-
-
+        Men men = new Men("Denis", 24, 1.81, 85, "Black", "Black", 38);
+        Women women = new Women("Kateryna", 27, 1.60, 58, "Blond", 1, "Yellow");
+        men.behaviourAndEssence();
+        women.behaviourAndEssence();
     }
 }

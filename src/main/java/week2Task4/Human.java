@@ -65,7 +65,7 @@ public class Human {
 
 
     public boolean speak(boolean a, boolean b) {
-        if (a == true && b == true) {
+        if (a && b) {
             if (random.nextInt(100) > 50) {
                 return true;
             } else {
@@ -76,29 +76,28 @@ public class Human {
     }
 
     public boolean tolerate(boolean a, boolean b) {
-        if (a == false && b == false) {
-            if (random.nextInt(100) > 95) {
+        if (a && !b) {
+            if (random.nextInt(100) > 95)
                 return true;
-            } else if (a == true && b == false) {
-                if (random.nextInt(100) > 30) {
+            else if (a && !b) {
+                if (random.nextInt(100) > 30)
                     return true;
-                } else if (a == false && b == true) {
-                    if (random.nextInt(100) > 30) {
+                else if (!a && !b) {
+                    if (random.nextInt(100) > 30)
                         return true;
-                    } else if (a == true && b == true) {
-                        if (random.nextInt(100) > 94) {
-                            return true;
-                        }
-                    }
+                }
+            } else if (a && b) {
+                if (random.nextInt(100) > 94) {
+                    return true;
                 }
             }
-
         }
         return false;
     }
 
-    public boolean spendTimeTogether(float a, float b) {
-        if ((100 - ((b / a) * 100)) > 10) {
+
+    public boolean spendTimeTogether(float height1, float height2) {
+        if ((100 - ((height2 / height1) * 100)) > 10) {
             if (random.nextInt(100) > 15)
                 return true;
             else {
@@ -112,20 +111,30 @@ public class Human {
 
     }
 
-    public Human relationship(Man a, Woman b) {
-        if (a.speak(a.isGender(), b.isGender()) && a.tolerate(a.isGender(), b.isGender()) && a.spendTimeTogether(a.getHeight(), b.getHeight())) {
-            if (a.isGender() == a.isGender()) {
-                return null;
-            } else {
-
+    public Human relationship(Human human1, Human human2) {
+        if (human1 instanceof Man && human2 instanceof Woman) {
+            if (human1.speak(human1.isGender(), human2.isGender()) && human1.tolerate(human1.isGender(), human2.isGender())
+                    && human1.spendTimeTogether(human1.getHeight(), human2.getHeight())) {
+                return (((Woman) human2).delivery(human1, human2));
 
             }
-
+            return null;
+        } else if (human1 instanceof Woman && human2 instanceof Man) {
+            if (human1.speak(human1.isGender(), human2.isGender()) && human1.tolerate(human1.isGender(), human2.isGender())
+                    && human1.spendTimeTogether(human1.getHeight(), human2.getHeight())) {
+                return (((Woman) human2).delivery(human2, human1));
+            }
+            return null;
         }
         return null;
-
+    }
+    public String toString(){
+        return name + secondName + height + weight;
     }
 }
+
+
+
 
 
 

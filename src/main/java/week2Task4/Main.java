@@ -5,10 +5,25 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Man man = new Man(true, "Arnold", "Schwarzenegger", 1.90f, 110.1f);
-        Man man1 = new Man(true, "Artem", "Rectangle", 1.70f, 90.5f);
+        //Man man1 = new Man(true, "Artem", "Rectangle", 1.70f, 90.5f);
         Woman woman = new Woman(false, "Natasha", "Sumkina", 1.65f, 65.2f);
-        Woman woman1 = new Woman(false, "Arina", "Scadovski", 1.71f, 60.6f);
-        Human human = new Human();
+        System.out.println(woman.speak(man.isGender(), woman.isGender()));
+        System.out.println(woman.tolerate(man.isGender(), woman.isGender()));
+        System.out.println(woman.spendTimeTogether(man.getHeight(), woman.getHeight()));
+        System.out.println((man.relationship(man,woman)));
+
+
+
+
+
+
+
+
+
+
+
+
+        /* Woman woman1 = new Woman(false, "Arina", "Scadovski", 1.71f, 60.6f);
         Scanner sc = new Scanner(System.in);
         System.out.println("What is first gender M or F: ");
         String choice1 = sc.next();
@@ -84,7 +99,8 @@ public class Main {
         }
     }
 }
+*/
 
 
-
-
+    }
+}

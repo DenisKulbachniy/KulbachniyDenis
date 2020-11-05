@@ -1,15 +1,20 @@
 package taskAT5;
 
+import java.time.LocalDateTime;
+
 public class Course {
     private String courseName;
-    private int  courseDuration;
+    private LocalDateTime courseDuration;
 
 
-    public Course(String courseName, int courseDuration) {
+    public Course(String courseName, LocalDateTime courseDuration) {
         this.courseName = courseName;
         this.courseDuration = courseDuration;
 
     }
+   // public String toString(){
+        //return
+  //  }
 
     public String getCourseName() {
         return courseName;
@@ -19,11 +24,11 @@ public class Course {
         this.courseName = courseName;
     }
 
-    public int getCourseDuration() {
+    public LocalDateTime getCourseDuration() {
         return courseDuration;
     }
 
-    public void setCourseDuration(int courseDuration) {
+    public void setCourseDuration(LocalDateTime courseDuration) {
         this.courseDuration = courseDuration;
     }
 }

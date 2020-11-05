@@ -129,7 +129,7 @@ public class Human {
         return null;
     }
     public String toString(){
-        return name + secondName + height + weight;
+        return "Name " + name + "\n" + "Second name " + secondName + "\n" + "Height " + height + "\n" + "Weight " + weight;
     }
 }
 

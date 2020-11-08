@@ -1,2 +1,4 @@
 # Default ignored files
 /workspace.xml
+/target/
+target\classes\week2Task3

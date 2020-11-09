@@ -7,10 +7,6 @@ public class Human {
     private int weight;
     private String hairColor;
 
-    void behaviourAndEssence() {
-
-    }
-
     public Human(String name, int age, double height, int weight, String hairColor) {
         this.name = name;
         this.age = age;

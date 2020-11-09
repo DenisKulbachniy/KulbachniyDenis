@@ -9,7 +9,7 @@ public class Main {
         chef.addVegetablesToSalad(" Cucumber ", " Green ", 0.2, 30);
         chef.addVegetablesToSalad(" Carrot ", " Orange ", 0.3, 40);
         chef.saladContains();
-        chef.removeVegetablesFromSaladbyType(" Cucumber ");
+        chef.removeVegetablesFromSaladbyName(" Cucumber ");
         chef.removeVegetablesFromSaladbyColor(" Green ");
         chef.saladContains();
         chef.compareVegetables(chef.getSalad().get(0), chef.getSalad().get(1));

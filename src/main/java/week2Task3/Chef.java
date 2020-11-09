@@ -5,21 +5,17 @@ import java.util.ArrayList;
 public class Chef {
     ArrayList<Vegetables> salad = new ArrayList<>();
 
-
-    public void addVegetablesToSalad(String typeOfVegetable, String colorOfVegetable, double weightOfVegetable, double vegetableCalories) {
-        Vegetables vegetables = new Vegetables(typeOfVegetable, colorOfVegetable, weightOfVegetable, vegetableCalories);
+    public void addVegetablesToSalad(String vegetableName, String colorOfVegetable, double weightOfVegetable, double vegetableCalories) {
+        Vegetables vegetables = new Vegetables(vegetableName, colorOfVegetable, weightOfVegetable, vegetableCalories);
         salad.add(vegetables);
     }
 
-    public void removeVegetablesFromSaladbyType(String vegetableType) {
-        salad.removeIf(a -> a.getTypeOfVegetable().equals(vegetableType));
-        //System.out.println(salad);
-
+    public void removeVegetablesFromSaladbyName(String vegetableName) {
+        salad.removeIf(a -> a.getVegetableName().equals(vegetableName));
     }
 
     public void removeVegetablesFromSaladbyColor(String vegetableColor) {
         salad.removeIf(vegetables -> vegetables.getColorOfVegetable().equals(vegetableColor));
-
     }
 
     public void saladContains() {
@@ -29,7 +25,6 @@ public class Chef {
     public ArrayList<Vegetables> getSalad() {
         return salad;
     }
-
 
     public boolean compareVegetables(Vegetables firstVegetable, Vegetables secondVegetable) {
         return (firstVegetable == secondVegetable);

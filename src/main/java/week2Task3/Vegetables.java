@@ -3,13 +3,13 @@ package week2Task3;
 import java.util.Objects;
 
 public class Vegetables {
-    private String typeOfVegetable;
+    private String vegetableName;
     private String colorOfVegetable;
     private double weightOfVegetable;
     private double vegetableCalories;
 
-    public Vegetables(String typeOfVegetable, String colorOfVegetable, double weight, double vegetableCalories) {
-        this.typeOfVegetable = typeOfVegetable;
+    public Vegetables(String vegetableName, String colorOfVegetable, double weight, double vegetableCalories) {
+        this.vegetableName = vegetableName;
         this.colorOfVegetable = colorOfVegetable;
         this.weightOfVegetable = weight;
         this.vegetableCalories = vegetableCalories;
@@ -24,7 +24,7 @@ public class Vegetables {
             return false;
         }
         Vegetables vegetables = (Vegetables) o;
-        return Objects.equals(vegetables.getTypeOfVegetable(), vegetables.getTypeOfVegetable())
+        return Objects.equals(vegetables.getVegetableName(), vegetables.getVegetableName())
                 && Objects.equals(vegetables.getColorOfVegetable(), vegetables.getColorOfVegetable())
                 && Double.compare(vegetables.getWeightOfVegetable(), vegetables.getWeightOfVegetable()) == 0
                 && Double.compare(vegetables.getVegetableCalories(), vegetables.getVegetableCalories()) == 0;
@@ -33,17 +33,17 @@ public class Vegetables {
     @Override
     public int hashCode() {
 
-        return Objects.hash(getTypeOfVegetable(), getColorOfVegetable(), getWeightOfVegetable(), getVegetableCalories());
+        return Objects.hash(getVegetableName(), getColorOfVegetable(), getWeightOfVegetable(), getVegetableCalories());
     }
 
     @Override
     public String toString() {
-        return getTypeOfVegetable() + getColorOfVegetable() + getWeightOfVegetable() + getVegetableCalories();
+        return getVegetableName() + getColorOfVegetable() + getWeightOfVegetable() + getVegetableCalories();
     }
 
 
-    public String getTypeOfVegetable() {
-        return typeOfVegetable;
+    public String getVegetableName() {
+        return vegetableName;
     }
 
     public String getColorOfVegetable() {
@@ -58,10 +58,5 @@ public class Vegetables {
         return vegetableCalories;
     }
 
-    public void add(Object vegetables) {
-    }
-
-    public void remove(Object vegetables) {
-    }
 }
 

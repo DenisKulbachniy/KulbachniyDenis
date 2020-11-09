@@ -35,9 +35,10 @@ public class Chef {
         return (firstVegetable == secondVegetable);
 
     }
-        public int getCalories (){
+
+    public int getCalories() {
         return CaloriesCalculator.vegetableCalories(salad);
-        }
+    }
 }
 
 

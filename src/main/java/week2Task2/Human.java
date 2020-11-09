@@ -14,7 +14,6 @@ public class Human {
         this.weight = weight;
         this.hairColor = hairColor;
     }
-
     public String getName() {
         return name;
     }

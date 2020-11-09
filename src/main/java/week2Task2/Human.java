@@ -52,4 +52,5 @@ public class Human {
     public void setHairColor(String hairColor) {
         this.hairColor = hairColor;
     }
+
 }

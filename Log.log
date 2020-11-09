@@ -1,0 +1,46 @@
+2020-11-08 15:42:10,068 WARN t.LoggerManager [main] WARN is set. 
+2020-11-08 15:42:10,070 WARN t.LoggerManager [main] First operand:  
+2020-11-08 15:42:19,482 WARN t.LoggerManager [main] Second operand:  
+2020-11-08 15:42:21,866 WARN t.LoggerManager [main] Symbol:  
+2020-11-08 15:42:23,659 WARN t.LoggerManager [main] 2 + 2 = 4 
+2020-11-08 15:42:50,944 INFO t.LoggerManager [main] INFO is set. 
+2020-11-08 15:42:50,946 INFO t.LoggerManager [main] First operand:  
+2020-11-08 15:42:54,159 INFO t.LoggerManager [main] Second operand:  
+2020-11-08 15:42:55,028 INFO t.LoggerManager [main] Symbol:  
+2020-11-08 15:42:56,044 INFO t.LoggerManager [main] 3 + 3 = 6 
+2020-11-08 15:46:40,121 WARN t.LoggerManager [main] WARN is set. 
+2020-11-08 15:46:40,124 WARN t.LoggerManager [main] Enter first operand  
+2020-11-08 15:46:43,418 WARN t.LoggerManager [main] Enter second operand  
+2020-11-08 15:46:44,568 WARN t.LoggerManager [main] Enter symbol  
+2020-11-08 15:46:45,701 WARN t.LoggerManager [main] First operand = 2 Second operand = 2 Symbol + 
+2020-11-08 15:46:45,701 WARN t.LoggerManager [main] 2 + 2 = 4 
+2020-11-08 15:58:40,084 WARN t.LoggerManager [main] WARN is set. 
+2020-11-08 15:58:40,086 WARN t.LoggerManager [main] Enter first operand  
+2020-11-08 15:58:43,145 WARN t.LoggerManager [main] Enter second operand  
+2020-11-08 15:58:44,436 WARN t.LoggerManager [main] Enter symbol  
+2020-11-08 15:58:45,220 WARN t.LoggerManager [main] First operand = 1 Second operand = 1 Symbol + 
+2020-11-08 15:58:45,220 WARN t.LoggerManager [main] 1 + 1 = 2 
+2020-11-08 16:01:40,860 INFO t.LoggerManager [main] INFO is set. 
+2020-11-08 16:01:40,862 INFO t.LoggerManager [main] Enter first operand  
+2020-11-08 16:01:43,849 INFO t.LoggerManager [main] Enter second operand  
+2020-11-08 16:01:44,629 INFO t.LoggerManager [main] Enter symbol  
+2020-11-08 16:01:46,049 INFO t.LoggerManager [main] First operand = 23 Second operand = 23 Symbol + 
+2020-11-08 16:01:46,049 INFO t.LoggerManager [main] 23 + 23 = 46 
+2020-11-09 18:36:34,399 INFO t.LoggerManager [main] INFO is set. 
+2020-11-09 18:36:34,402 INFO t.LoggerManager [main] Enter first operand  
+2020-11-09 18:36:36,771 INFO t.LoggerManager [main] Enter second operand  
+2020-11-09 18:36:37,497 INFO t.LoggerManager [main] Enter symbol  
+2020-11-09 18:36:38,825 INFO t.LoggerManager [main] First operand = 2 Second operand = 4 Symbol + 
+2020-11-09 18:36:38,825 INFO t.LoggerManager [main] 2 + 4 = 6 
+2020-11-09 18:37:16,681 WARN t.LoggerManager [main] WARN is set. 
+2020-11-09 18:37:16,684 WARN t.LoggerManager [main] Enter first operand  
+2020-11-09 18:37:20,797 WARN t.LoggerManager [main] Enter second operand  
+2020-11-09 18:37:22,103 WARN t.LoggerManager [main] Enter symbol  
+2020-11-09 18:37:24,331 WARN t.LoggerManager [main] First operand = 5 Second operand = 4 Symbol * 
+2020-11-09 18:37:24,331 WARN t.LoggerManager [main] 5 * 4 = 20 
+2020-11-09 18:39:25,756 INFO t.LoggerManager [main] INFO is set. 
+2020-11-09 18:39:25,758 INFO t.LoggerManager [main] Enter first operand  
+2020-11-09 18:39:27,679 INFO t.LoggerManager [main] Enter second operand  
+2020-11-09 18:39:28,904 INFO t.LoggerManager [main] Enter symbol  
+2020-11-09 18:39:32,905 INFO t.LoggerManager [main] First operand = 2 Second operand = 3 Symbol - 
+2020-11-09 18:39:32,905 INFO t.LoggerManager [main] 2 - 3 = -1 

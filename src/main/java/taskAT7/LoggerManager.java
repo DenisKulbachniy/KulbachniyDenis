@@ -1,5 +1,4 @@
-package taskAT8;
-
+package taskAT7;
 
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
@@ -31,4 +30,3 @@ public class LoggerManager {
         log(logLevel + " is set.");
     }
 }
-

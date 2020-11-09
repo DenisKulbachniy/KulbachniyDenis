@@ -4,6 +4,7 @@ target/
 /misc.xml
 /vcs.xml
 /target/
-/KulbachniyDenis.iml
 /target\classes\week2Task2
-.idea/
+/.idea/
+*.iml
+/.target/

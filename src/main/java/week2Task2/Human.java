@@ -45,7 +45,6 @@ public class Human {
     public void setWeight(int weight) {
         this.weight = weight;
     }
-
     public String getHairColor() {
         return hairColor;
     }

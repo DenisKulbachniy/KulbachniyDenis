@@ -1,41 +1,39 @@
-import org.junit.After;
 import org.junit.Assert;
-import org.junit.Before;
 import org.junit.Test;
 import taskAT7.Calculator;
 
 public class CalculatorTest {
-    @Before
-    public void setUp() {
-
-    }
 
     @Test
     public void add() {
         Calculator calculator = new Calculator();
-        calculator.add(2, 4);
-        Assert.assertEquals(6, 6);
+        int result = calculator.add(2, 4);
+        Assert.assertEquals(6, result, 0);
     }
 
     @Test
     public void sub() {
         Calculator calculator = new Calculator();
-        calculator.sub(5, 3);
-        Assert.assertEquals(6, 6);
+        int result = calculator.sub(5, 3);
+        Assert.assertEquals(2, result, 0);
     }
 
     @Test
     public void mul() {
         Calculator calculator = new Calculator();
-        calculator.mul(5, 3);
-        Assert.assertEquals(6, 6);
+        int result = calculator.mul(5, 3);
+        Assert.assertEquals(15, result,0);
 
     }
 
     @Test
     public void div() {
         Calculator calculator = new Calculator();
-        calculator.div(5, 3);
-        Assert.assertEquals(6, 6);
+        try {
+            double result = calculator.div(10, 5);
+            Assert.assertEquals(2.0, result, 0);
+        } catch (Exception e) {
+            System.out.println("It`s forbidden to divide by 0");
+        }
     }
 }

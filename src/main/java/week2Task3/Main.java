@@ -11,14 +11,13 @@ public class Main {
         chef.addVegetablesToSalad(" Cucumber ", " Green ", 0.2, 30);
         chef.addVegetablesToSalad(" Carrot ", " Orange ", 0.3, 40);
         chef.saladContains();
-        chef.removeVegetablesFromSaladbyName(" Cucumber ");
-        chef.removeVegetablesFromSaladbyColor(" Green ");
+        chef.removeByName(" Cucumber ");
+        chef.removeByColor(" Green ");
         chef.saladContains();
         chef.compareVegetables(chef.getSalad().get(0), chef.getSalad().get(1));
         System.out.println("Comparing of vegetables: " + chef.compareVegetables(chef.getSalad().get(0), chef.getSalad().get(1)));
         System.out.println("Calories: " + chef.getCalories());
         chef.salad.sort(Comparator.comparing(Vegetables::getVegetableCalories));
         chef.salad.sort(Comparator.comparing(Vegetables::getWeightOfVegetable));
-
     }
 }

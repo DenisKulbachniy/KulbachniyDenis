@@ -10,11 +10,11 @@ public class Chef {
         salad.add(vegetables);
     }
 
-    public void removeVegetablesFromSaladbyName(String vegetableName) {
+    public void removeByName(String vegetableName) {
         salad.removeIf(a -> a.getVegetableName().equals(vegetableName));
     }
 
-    public void removeVegetablesFromSaladbyColor(String vegetableColor) {
+    public void removeByColor(String vegetableColor) {
         salad.removeIf(vegetables -> vegetables.getColorOfVegetable().equals(vegetableColor));
     }
 

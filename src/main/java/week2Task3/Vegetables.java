@@ -41,7 +41,6 @@ public class Vegetables {
         return getVegetableName() + getColorOfVegetable() + getWeightOfVegetable() + getVegetableCalories();
     }
 
-
     public String getVegetableName() {
         return vegetableName;
     }

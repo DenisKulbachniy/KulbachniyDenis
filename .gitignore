@@ -1,0 +1,11 @@
+/workspace.xml
+target/
+/compiler.xml
+/misc.xml
+/vcs.xml
+/target/
+/target\classes\week2Task2
+/.idea/
+*.iml
+/.target/
+

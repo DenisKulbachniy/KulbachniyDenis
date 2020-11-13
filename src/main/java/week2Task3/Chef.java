@@ -27,7 +27,7 @@ public class Chef {
     }
 
     public boolean compareVegetables(Vegetables firstVegetable, Vegetables secondVegetable) {
-        return (firstVegetable == secondVegetable);
+        return (firstVegetable.equals(secondVegetable));
 
     }
 

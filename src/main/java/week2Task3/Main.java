@@ -1,5 +1,7 @@
 package week2Task3;
 
+import java.util.Comparator;
+
 public class Main {
     public static void main(String[] args) {
         Chef chef = new Chef();
@@ -15,5 +17,8 @@ public class Main {
         chef.compareVegetables(chef.getSalad().get(0), chef.getSalad().get(1));
         System.out.println("Comparing of vegetables: " + chef.compareVegetables(chef.getSalad().get(0), chef.getSalad().get(1)));
         System.out.println("Calories: " + chef.getCalories());
+        chef.salad.sort(Comparator.comparing(Vegetables::getVegetableCalories));
+        chef.salad.sort(Comparator.comparing(Vegetables::getWeightOfVegetable));
+
     }
 }

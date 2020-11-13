@@ -1,0 +1,49 @@
+2020-11-08 15:42:10,068 WARN t.LoggerManager [main] WARN is set. 
+2020-11-08 15:42:10,070 WARN t.LoggerManager [main] First operand:  
+2020-11-08 15:42:19,482 WARN t.LoggerManager [main] Second operand:  
+2020-11-08 15:42:21,866 WARN t.LoggerManager [main] Symbol:  
+2020-11-08 15:42:23,659 WARN t.LoggerManager [main] 2 + 2 = 4 
+2020-11-08 15:46:40,121 WARN t.LoggerManager [main] WARN is set. 
+2020-11-08 15:46:40,124 WARN t.LoggerManager [main] Enter first operand  
+2020-11-08 15:46:43,418 WARN t.LoggerManager [main] Enter second operand  
+2020-11-08 15:46:44,568 WARN t.LoggerManager [main] Enter symbol  
+2020-11-08 15:46:45,701 WARN t.LoggerManager [main] First operand = 2 Second operand = 2 Symbol + 
+2020-11-08 15:46:45,701 WARN t.LoggerManager [main] 2 + 2 = 4 
+2020-11-08 15:58:40,084 WARN t.LoggerManager [main] WARN is set. 
+2020-11-08 15:58:40,086 WARN t.LoggerManager [main] Enter first operand  
+2020-11-08 15:58:43,145 WARN t.LoggerManager [main] Enter second operand  
+2020-11-08 15:58:44,436 WARN t.LoggerManager [main] Enter symbol  
+2020-11-08 15:58:45,220 WARN t.LoggerManager [main] First operand = 1 Second operand = 1 Symbol + 
+2020-11-08 15:58:45,220 WARN t.LoggerManager [main] 1 + 1 = 2 
+2020-11-09 18:37:16,681 WARN t.LoggerManager [main] WARN is set. 
+2020-11-09 18:37:16,684 WARN t.LoggerManager [main] Enter first operand  
+2020-11-09 18:37:20,797 WARN t.LoggerManager [main] Enter second operand  
+2020-11-09 18:37:22,103 WARN t.LoggerManager [main] Enter symbol  
+2020-11-09 18:37:24,331 WARN t.LoggerManager [main] First operand = 5 Second operand = 4 Symbol * 
+2020-11-09 18:37:24,331 WARN t.LoggerManager [main] 5 * 4 = 20 
+2020-11-10 11:42:26,497 WARN t.LoggerManager [main] WARN is set. 
+2020-11-10 11:42:26,501 WARN t.LoggerManager [main] 10 / 2 = 5.0 
+2020-11-10 12:38:41,504 WARN t.LoggerManager [main] WARN is set. 
+2020-11-10 12:38:59,843 WARN t.LoggerManager [main] WARN is set. 
+2020-11-10 12:38:59,848 WARN t.LoggerManager [main] 10 / 5 = 2.0 
+2020-11-10 12:52:10,089 WARN t.LoggerManager [main] WARN is set. 
+2020-11-10 12:52:10,093 WARN t.LoggerManager [main] 10 / 5 = 2.0 
+2020-11-10 12:52:19,103 WARN t.LoggerManager [main] WARN is set. 
+2020-11-10 12:56:15,412 WARN t.LoggerManager [main] WARN is set. 
+2020-11-11 13:19:05,508 WARN t.LoggerManager [main] WARN is set. 
+2020-11-11 13:19:05,512 WARN t.LoggerManager [main] 2 + 4 = 6 
+2020-11-11 13:19:05,513 WARN t.LoggerManager [main] WARN is set. 
+2020-11-11 13:19:05,513 WARN t.LoggerManager [main] WARN is set. 
+2020-11-11 13:19:05,514 WARN t.LoggerManager [main] 5 * 3 = 15 
+2020-11-11 13:19:05,514 WARN t.LoggerManager [main] WARN is set. 
+2020-11-11 13:19:05,514 WARN t.LoggerManager [main] 5 - 3 = 2 
+2020-11-11 13:19:59,738 WARN t.LoggerManager [main] WARN is set. 
+2020-11-11 13:19:59,742 WARN t.LoggerManager [main] 10 / 5 = 2.0 
+2020-11-11 13:20:16,791 WARN t.LoggerManager [main] WARN is set. 
+2020-11-11 13:20:16,794 WARN t.LoggerManager [main] 2 + 4 = 6 
+2020-11-11 13:20:16,796 WARN t.LoggerManager [main] WARN is set. 
+2020-11-11 13:20:16,797 WARN t.LoggerManager [main] 10 / 5 = 2.0 
+2020-11-11 13:20:16,798 WARN t.LoggerManager [main] WARN is set. 
+2020-11-11 13:20:16,798 WARN t.LoggerManager [main] 5 * 3 = 15 
+2020-11-11 13:20:16,799 WARN t.LoggerManager [main] WARN is set. 
+2020-11-11 13:20:16,800 WARN t.LoggerManager [main] 5 - 3 = 2 
